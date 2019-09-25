@@ -1,0 +1,55 @@
+:root {
+  --color-turquoise: #39CCCC;
+  --color-yellow-orange: #FFC247;
+  --color-sunset-orange: #FF4747;
+  --color-midnight-blue: #1E3888;
+  --color-cerise-red: #DB2763;
+}
+
+div,li,h1,h2,h3,h4,h5,h6,p {
+  padding: 0;
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  color: #444;
+}
+
+code,var {
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: arial,helvetica;
+  color: #333;
+  color: rgba(0,0,0,0.5);
+}
+
+.section {
+  text-align: center;
+}
+
+span.midnight-blue {
+  color: var(--color-midnight-blue);
+}
+
+span.cerise-red {
+  color: var(--color-cerise-red);
+}
+
+h1 {
+  font-size: 5em;
+  font-family: arial,helvetica;
+  color: #fff;
+  margin: 0;
+}
+
+p {
+  font-size: 2em;
+  color: #fff;
+}
