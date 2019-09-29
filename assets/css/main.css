@@ -64,3 +64,12 @@ p {
   font-size: 2em;
   color: #fff;
 }
+
+#section-contact h1 {
+  margin-bottom: 1.5rem;
+}
+
+a.social-media {
+  text-decoration: none;
+  font-size: 3em;
+}
