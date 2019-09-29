@@ -71,5 +71,9 @@ p {
 
 a.social-media {
   text-decoration: none;
-  font-size: 3em;
+  font-size: 2em;
+}
+
+a.social-media:hover {
+  color: white;
 }
