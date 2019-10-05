@@ -82,3 +82,15 @@ a.social-media {
 a.social-media:hover {
   color: white;
 }
+
+a.circle {
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 2em;
+  border-style: solid;
+  border-width: medium;
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
