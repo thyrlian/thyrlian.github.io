@@ -65,12 +65,15 @@ p {
   color: #fff;
 }
 
+a {
+  text-decoration: none;
+}
+
 #section-contact h1 {
   margin-bottom: 1.5rem;
 }
 
 a.social-media {
-  text-decoration: none;
   font-size: 2em;
   margin-left: 0.3em;
   margin-right: 0.3em;
