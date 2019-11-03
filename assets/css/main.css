@@ -94,3 +94,24 @@ a.circle {
   align-items: center;
   justify-content: center;
 }
+
+.floating-action-button {
+  position: fixed;
+  z-index: 1;
+  width: 3em;
+  height: 3em;
+  bottom: 2em;
+  right: 2em;
+  border-radius: 50%;
+  box-shadow: 0.2em 0.2em 0.3em gray;
+  background-color: var(--color-yellow-orange);
+  color: var(--color-sunset-orange);
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.floating-action-button i {
+  font-size: 1.5em;
+}
