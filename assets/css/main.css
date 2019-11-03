@@ -104,12 +104,18 @@ a.circle {
   right: 2em;
   border-radius: 50%;
   box-shadow: 0.2em 0.2em 0.3em gray;
-  background-color: var(--color-yellow-orange);
   color: var(--color-sunset-orange);
+  background-color: var(--color-yellow-orange);
   display: inline-flex;
   text-align: center;
   align-items: center;
   justify-content: center;
+}
+
+.floating-action-button:hover {
+  box-shadow: 0.4em 0.4em 0.6em gray;
+  color: var(--color-yellow-orange);
+  background-color: var(--color-sunset-orange);
 }
 
 .floating-action-button i {
